@@ -14,7 +14,7 @@ spec:
         app: run-forrest-run
     spec:
       containers:
-      - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
+      - image: docker.io/aviyaaharon/forrestgump:v1.0
         name: run-forrest-run
         ports:
         - containerPort: 80
